@@ -27,7 +27,7 @@ test.beforeEach(async ({ page }) => {
 
 
 
-test("User registration with randomdata", async ({ page }) => {
+test("User registration with randomdata @sanity", async ({ page }) => {
 
 
 

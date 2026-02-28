@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+
+    "testsmoke": "playwright test --grep @smoke",
+    "testsanity": "playwright test --grep @sanity",
+    "testdatadriven": "playwright test --grep @datadriven"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
