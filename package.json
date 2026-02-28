@@ -14,7 +14,7 @@
     "allure-playwright": "^3.4.5"
   },
   "dependencies": {
-    "@faker-js/faker": "^10.3.0",
+    "@faker-js/faker": "^7.6.0",
     "csv-parse": "^6.1.0",
     "xlsx": "^0.18.5"
   }

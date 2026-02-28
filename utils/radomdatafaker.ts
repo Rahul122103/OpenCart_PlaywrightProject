@@ -1,68 +1,52 @@
 import { faker } from "@faker-js/faker";
 
-
-
 export class randomdatafaker {
 
-
-    static getfirtsname(): string {
-
-        return faker.person.firstName()
+    static getFirstName(): string {
+        return faker.name.firstName();
     }
 
-    static getlastName(): string {
-        return faker.person.lastName();
-
+    static getLastName(): string {
+        return faker.name.lastName();
     }
 
     static getFullName(): string {
-        return faker.person.fullName();
-
+        return faker.name.fullName();
     }
 
     static getEmail(): string {
-
-        return faker.internet.email()
+        return faker.internet.email();
     }
 
     static getPhoneNumber(): string {
         return faker.phone.number();
-
     }
 
     static getUsername(): string {
-        return faker.internet.username();
-
+        return faker.internet.userName();
     }
 
-
     static getPassword(): string {
-        return faker.internet.password({ length: 10 });
+        return faker.internet.password(10);
     }
 
     static getRandomCountry(): string {
-        return faker.location.country();
+        return faker.address.country();
     }
-
 
     static getRandomState(): string {
-        return faker.location.state();
+        return faker.address.state();
     }
+
     static getRandomCity(): string {
-        return faker.location.city();
+        return faker.address.city();
     }
 
     static getRandomPin(): string {
-        return faker.location.zipCode();
+        return faker.address.zipCode();
     }
 
     static getRandomAddress(): string {
-        return faker.location.streetAddress();
+        return faker.address.streetAddress();
     }
-
-
-
-
-
-
 }

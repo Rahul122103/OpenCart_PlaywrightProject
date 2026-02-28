@@ -1,0 +1,1 @@
+[@faker-js/faker]: faker.phone.phoneNumber() is deprecated since v7.3 and will be removed in v8.0. Please use faker.phone.number() instead.

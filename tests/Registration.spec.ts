@@ -54,8 +54,8 @@ test("User registration with randomdata", async ({ page }) => {
   // randomdatafeker is static class , thats why new keyword is not used 
 
   await registerationPage.fillPersonalDetails(
-    randomdatafaker.getfirtsname(),
-    randomdatafaker.getlastName(),
+    randomdatafaker.getFirstName(),
+    randomdatafaker.getLastName(),
     randomdatafaker.getEmail(),
     randomdatafaker.getPhoneNumber()
   )
