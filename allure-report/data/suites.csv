@@ -1,3 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","10497","Verify valid login data @smoke","chromium","2026-03-01","passed","2026-03-01","","login.spec.ts","",""
-"","13937","Verify valid login data @smoke","chromium","2026-03-01","passed","2026-03-01","","logout.spec.ts","",""
